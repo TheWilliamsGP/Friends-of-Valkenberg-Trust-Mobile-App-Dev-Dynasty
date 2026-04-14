@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/secondary">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/nav_logo"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@mipmap/ic_launcher"
+        android:contentDescription="App Logo"
+        android:layout_marginBottom="8dp" />
+
+    <!-- App Name -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Friends of Valkenberg"
+        android:textColor="@color/text_primary"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="6dp" />
+
+    <!-- Divider line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/primary"
+        android:alpha="0.3"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Phone -->
+    <TextView
+        android:id="@+id/nav_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone: +27 00 000 0000"
+        android:textColor="@color/text_secondary"
+        android:textSize="13sp"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Email -->
+    <TextView
+        android:id="@+id/nav_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: info@valkenberg.org"
+        android:textColor="@color/text_secondary"
+        android:textSize="13sp" />
+
+</LinearLayout>
