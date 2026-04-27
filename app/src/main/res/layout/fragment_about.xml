@@ -1,27 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-    <LinearLayout
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="20dp"
-        android:orientation="vertical">
+        android:gravity="center"
+        android:text="About Us"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Friends of Valkenberg Trust works alongside hospital staff at Valkenberg Psychiatric Hospital to promote the recovery of people with serious mental illnesses. This is vital, as it means people can get back to their lives, their families, their jobs and their communities. We also recognize and appreciate the team of staff who make recovery possible and serve to remind the larger community, and the service users themselves, that recovery is possible. Valkenberg Psychiatric Hospital serves adults from a diverse area of more than a million people in the Western Cape – from Simon’s Town to Nyanga, Grassy Park to Atlantis. Most come from disadvantaged communities. Many have little family or community support and will be in hospital for a number of weeks."
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="60dp"
+        tools:ignore="MissingConstraints" />
 
-        <TextView
-            android:text="About Us"
-            android:textSize="22sp"
-            android:textStyle="bold"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="WHY CHOOSE US"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="292dp"
+        tools:ignore="MissingConstraints" />
 
-        <TextView
-            android:text="Friends of Valkenberg Trust supports mental health recovery by helping patients through rehabilitation, community programs, and donations."
-            android:layout_marginTop="10dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Through its 60 volunteers, the Friends of Valkenberg works in conjunction with hospital staff to provide a range of services designed to bring hope and comfort to patients during their stay at Valkenberg Psychiatric Hospital; meeting direct needs and helping patients along the road to recovery."
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="323dp"
+        tools:ignore="MissingConstraints" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="20sp"
+    >
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150sp"
+        android:layout_height="135dp"
+        app:srcCompat="@drawable/fran"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="430dp"
+        tools:ignore="MissingConstraints" />
 
-    </LinearLayout>
-
-</ScrollView>
+    <TextView
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:text="Psychiatric patients have been neglected by society at large, and if we only make a difference to one patient on one day, then we’re doing something worthwhile and making an important difference."
+        android:textColor="@color/black"
+        android:layout_marginTop="10sp"
+        android:paddingLeft="20sp"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="445dp"
+        tools:ignore="MissingConstraints" />
+</LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-Fran Robertson, Founder"
+        android:textColor="@color/black"
+        android:gravity="right"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="546dp"
+        tools:ignore="MissingConstraints" />
+</LinearLayout>

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="20dp"
@@ -7,15 +9,99 @@
 
     <TextView
         android:text="Friends of Valkenberg Trust"
-        android:textSize="22sp"
+        android:textSize="25sp"
         android:textStyle="bold"
+        android:textColor="@color/black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
     <TextView
-        android:text="Welcome to the official app supporting mental health recovery."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Welcome"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+    <TextView
+        android:text="Welcome to our mobile app "
         android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:justificationMode="inter_character"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Our Mission"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+    <TextView
+        android:text="The Friends of Valkenberg Trust works with staff at Valkenberg Hospital to promote mental health and support the recovery of people with serious mental illnesses. This is vital, as it means people can reintegrate into society, returning to their loved ones, families, jobs, and communities."
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:justificationMode="inter_character"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Our Services"
+        android:layout_marginTop="30dp"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:justificationMode="inter_character"
+        android:text="The Friends of Valkenberg serves the patients and staff of Valkenberg Psychiatric Hospital. How exactly do we do this? Through our 60+ volunteers, the Friends works in conjunction with hospital staff to provide a range of services designed to bring hope and comfort to patients during their stay at Valkenberg Psychiatric Hospital, meeting needs and helping patients along the road to recovery. This means that people are able to return to their families, their jobs, and their communities." />
+
+    <TextView
+        android:text="Follow Us"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/btnFacebook"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:src="@drawable/facebook_color_svgrepo_com"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:id="@+id/btnInstagram"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:src="@drawable/instagram_1_svgrepo_com"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:id="@+id/btnYoutube"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:src="@drawable/youtube_color_svgrepo_com"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
 </LinearLayout>
