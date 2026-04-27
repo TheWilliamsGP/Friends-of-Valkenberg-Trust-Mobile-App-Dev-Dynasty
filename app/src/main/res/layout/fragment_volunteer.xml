@@ -2,20 +2,49 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="20dp"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="20dp">
 
+    <!-- HEADER -->
+    <include layout="@layout/vol_header" />
+
+    <!-- DESCRIPTION (optional if already inside header, remove if duplicated) -->
     <TextView
-        android:layout_width="156dp"
+        android:id="@+id/vol_txt_description"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Volunteer"
-        android:textSize="22sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:layout_width="148dp"
-        android:layout_height="110dp"
         android:layout_marginTop="10dp"
-        android:text="Join our volunteer team and help support mental health recovery in the community." />
+        android:text="Join our volunteer team and help support mental health recovery in the community."
+        android:textSize="14sp"
+        android:textColor="@color/text_secondary" />
+
+    <!-- CALL TO ACTION -->
+    <include layout="@layout/vol_cta" />
+
+    <!-- SECTION TITLE -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Active Volunteers"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/primary" />
+
+    <!-- VOLUNTEER LIST (STATIC FOR NOW) -->
+    <LinearLayout
+        android:id="@+id/vol_list_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/vol_card" />
+
+        <include layout="@layout/vol_card" />
+
+        <include layout="@layout/vol_card" />
+
+    </LinearLayout>
 
 </LinearLayout>
