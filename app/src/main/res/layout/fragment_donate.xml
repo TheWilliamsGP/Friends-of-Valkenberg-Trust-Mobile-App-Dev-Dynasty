@@ -7,27 +7,108 @@
 
     <TextView
         android:text="Donate"
-        android:textSize="22sp"
+        android:textSize="25sp"
         android:textStyle="bold"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-
-    <EditText
-        android:id="@+id/etName"
-        android:hint="Your Name"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
 
-    <EditText
-        android:id="@+id/etAmount"
-        android:hint="Amount"
-        android:inputType="number"
+    <TextView
+        android:text="Thank you for your interest in making a donation to the Friends of Valkenberg Trust. Your support will mean recovery for many people living with mental illnesses."
+        android:textSize="15sp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-    <Button
-        android:text="Donate"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+    <TextView
+        android:text="Payment Methods"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="10sp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
 
+    <TextView
+        android:text="Dear valued donors,\n\nFor your convenience we have the following payment channels in which you can make you donations. If you require a S18A Receipt, please email your request to admin@friendsofvalkenberg.co.za"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        >
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="116dp"
+                android:padding="10dp"
+                android:text="Payment Method"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="168dp"
+                android:layout_height="match_parent"
+
+                android:padding="10dp"
+                android:text="Link Details"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:text="EFT" />
+
+            <TextView
+                android:layout_width="226dp"
+                android:padding="8dp"
+                android:text="Standard Bank\nAccount Number : 071270728\nBranch Code : 051001\nPayment Ref : Your Name and Surname"
+                android:textColor="@color/black" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="Snap Scan Link \n(Card Payments)"
+                android:textColor="@color/black"
+                android:padding="8dp"/>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:text="https://pos.snapscan.io/qr/n5zbKcH7" />
+
+        </TableRow>
+        <TextView
+            android:text="Tax benefits"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="10sp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="All donations made to the Friends of Valkenberg Trust are exempt from donations tax and qualify the donor for deductions from taxable income in accordance with the Income Tax Act 58 of 1962.\n\nDonor deductibility applies to cash donations, bequests and donations in kind. To read more about PBO and Section 18A criteria, log on to the SARS website."
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </TableLayout>
 </LinearLayout>

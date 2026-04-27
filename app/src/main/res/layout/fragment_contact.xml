@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -9,14 +9,19 @@
     android:orientation="vertical"
     tools:layout_editor_absoluteX="-20dp"
     tools:layout_editor_absoluteY="114dp">
-
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Contact Us"
-        android:textSize="22sp"
+        android:textSize="25sp"
         android:textStyle="bold"
+        android:textColor="@color/black"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -26,16 +31,22 @@
         android:text="Friends of Valkenberg Trust \nValkenberg Hospital \n1 Observatory Road\nObservatory\nCape Town"
         tools:layout_editor_absoluteX="20dp"
         tools:layout_editor_absoluteY="92dp"
-        tools:ignore="MissingConstraints" />
+        android:padding="15sp"
+        android:textSize="15dp"
+        tools:ignore="MissingConstraints"
+        android:textColor="@color/black"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:padding="15sp"
+        android:textSize="15dp"
         android:text="\nTel: 021 447 2092 (Mornings) \nOffice Hours: 9 am – 1 pm Monday – Friday "
         tools:layout_editor_absoluteX="20dp"
         tools:layout_editor_absoluteY="190dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        android:textColor="@color/black"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -43,9 +54,12 @@
         android:gravity="center"
         android:text="Email: admin@friendsofvalkenberg.co.za "
         android:textStyle="bold"
+        android:padding="15sp"
+        android:textSize="15dp"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="251dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        android:textColor="@color/black"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -54,7 +68,9 @@
         android:text="Friendly Shop 021 447 7076 \nFriendly Shop Hours: 7:30am – 3pm Monday – Friday AND 8am – 4pm Saturday \nPostal Address: \nPO BOX 13566 \nMowbray \n7705"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="290dp"
-        tools:ignore="MissingConstraints" />
+        android:textSize="15dp"
+        tools:ignore="MissingConstraints"
+        android:textColor="@color/black"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -62,8 +78,92 @@
         android:gravity="center"
         android:text="Meet the team"
         android:textStyle="bold"
+        android:padding="15sp"
+        android:textSize="20dp"
         tools:layout_editor_absoluteX="20dp"
         tools:layout_editor_absoluteY="417dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        android:textColor="@color/black"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
 
+        <TableRow
+            android:padding="5sp">
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="107dp"
+                android:layout_height="102dp"
+                app:srcCompat="@drawable/soraya_1" />
+
+            <TextView
+                android:text="Soraya Soloman \nDirector"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:textColor="@color/black"/>
+
+        </TableRow>
+
+        <TableRow
+            android:padding="5sp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="107dp"
+                android:layout_height="102dp"
+                app:srcCompat="@drawable/gail2_4" />
+
+            <TextView
+                android:text="Gail Henry\nEvents Manager"
+                android:padding="8dp"
+                android:textColor="@color/black"/>
+
+        </TableRow>
+
+        <TableRow
+            android:padding="5sp">
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="10dp"
+                android:layout_height="102dp"
+                app:srcCompat="@drawable/ridaa2" />
+
+            <TextView
+                android:text="Ridaa Manie\nOffice Manager"
+                android:padding="8dp"
+                android:textColor="@color/black"/>
+
+        </TableRow>
+        <TableRow
+            android:padding="5sp">
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="107dp"
+                android:layout_height="102dp"
+                app:srcCompat="@drawable/grisel_4" />
+
+            <TextView
+                android:text="Grisel Pretorius\nProject Manager"
+                android:padding="8dp"
+                android:textColor="@color/black"/>
+
+        </TableRow>
+        <TableRow
+            android:padding="5sp">
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="107dp"
+                android:layout_height="102dp"
+                app:srcCompat="@drawable/elaine2" />
+
+            <TextView
+                android:text="Elaine Smith\nFriendly Shop Manager"
+                android:textColor="@color/black"
+                android:padding="8dp"/>
+
+        </TableRow>
+
+    </TableLayout>
 </LinearLayout>
+</ScrollView>
