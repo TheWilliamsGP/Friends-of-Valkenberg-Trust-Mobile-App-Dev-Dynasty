@@ -6,16 +6,13 @@
     android:orientation="vertical">
 
     <TextView
-        android:layout_width="175dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Community"
+        android:gravity="center"
         android:textSize="22sp"
+        android:textColor="@color/black"
         android:textStyle="bold" />
 
-    <TextView
-        android:layout_width="182dp"
-        android:layout_height="91dp"
-        android:layout_marginTop="10dp"
-        android:text="We build a supportive community focused on mental wellness, recovery, and inclusion." />
 
 </LinearLayout>
