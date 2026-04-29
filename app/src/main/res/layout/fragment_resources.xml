@@ -1,266 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#F8F9FA">
 
-    <LinearLayout
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="20dp"
-        android:orientation="vertical">
+        android:background="#F8F9FA"
+        app:elevation="0dp">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="41dp"
-            android:gravity="center"
-            android:text="Resources"
-            android:textSize="25sp"
-            android:textColor="@color/black"
-            android:textStyle="bold" />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="41dp"
-            android:gravity="center"
-            android:text="Helpline Numbers"
-            android:textSize="17sp"
-            android:textColor="@color/black"
-            android:textStyle="bold" />
-
-        <TableLayout
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp">
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp"
+            android:paddingTop="32dp"
+            android:paddingBottom="16dp">
 
-            <TableRow>
-                <TextView
-                    android:layout_width="120dp"
-                    android:layout_height="130dp"
-                    android:gravity="center"
-                    android:text="24-Hour \nToll-Free \nEmergency \nHelplines\n\nSuicide Crises \nHelpline"
-                    android:textColor="@color/black"
-                    android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Resources"
+                android:textColor="#1A1C1E"
+                android:textSize="32sp"
+                android:textStyle="bold" />
 
-                <TextView
-                    android:layout_width="120dp"
-                    android:layout_height="130dp"
-                    android:gravity="center"
-                    android:text="8AM-8PM \nToll-Free \nHelplines\n\n\n Dr Reddy’s Mental Health Helpline"
-                    android:textColor="@color/black"
-                    android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Confidential support lines for mental health, trauma, and substance abuse."
+                android:textColor="#44474E"
+                android:textSize="15sp" />
 
-                <TextView
-                    android:layout_width="110sp"
-                    android:layout_height="130dp"
-                    android:gravity="center"
-                    android:text="8AM-5PM \nWhatsApp Numbers\n\n\nCipla Chat \nLine"
-                    android:textColor="@color/black"
-                    android:textStyle="bold" />
-            </TableRow>
+            <View
+                android:layout_width="40dp"
+                android:layout_height="4dp"
+                android:layout_marginTop="16dp"
+                android:background="#0061A4" />
+        </LinearLayout>
+    </com.google.android.material.appbar.AppBarLayout>
 
-            <TableRow>
-                <TextView
-                    android:layout_width="120dp"
-                    android:layout_height="70dp"
-                    android:gravity="center"
-                    android:text="0800 567 567"
-                    android:textColor="@color/black" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvHelplines"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="20dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
-                <TextView
-                    android:layout_width="120dp"
-                    android:layout_height="70dp"
-                    android:gravity="center"
-                    android:text="0800 21 22 23"
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:layout_width="110sp"
-                    android:layout_height="70dp"
-                    android:gravity="center"
-                    android:text="076 882 2775"
-                    android:textColor="@color/black" />
-            </TableRow>
-            <TableRow>
-                <TextView
-                    android:layout_width="120dp"
-                    android:layout_height="130dp"
-                    android:gravity="center"
-                    android:text="Department of Social Development Substance Abuse Helpline"
-                    android:textColor="@color/black"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="120dp"
-                    android:layout_height="130dp"
-                    android:gravity="center"
-                    android:text="Adcock Ingram Depression and Anxiety Helpline"
-                    android:textColor="@color/black"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="110sp"
-                    android:layout_height="130dp"
-                    android:gravity="center"
-                    android:text="Maybelline BraveTogether"
-                    android:textColor="@color/black"
-                    android:textStyle="bold" />
-            </TableRow>
-
-            <TableRow>
-                <TextView
-                    android:layout_width="120dp"
-                    android:layout_height="70dp"
-                    android:gravity="center"
-                    android:text="0800 12 13 14\nSMS 32312"
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:layout_width="120dp"
-                    android:layout_height="70dp"
-                    android:gravity="center"
-                    android:text="0800 70 80 90"
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:layout_width="110sp"
-                    android:layout_height="70dp"
-                    android:gravity="center"
-                    android:text="087 163 2030"
-                    android:textColor="@color/black" />
-            </TableRow>
-            <TableRow>
-                <TextView
-                    android:layout_width="120dp"
-                    android:layout_height="130dp"
-                    android:gravity="center"
-                    android:text="ADHD Helpline"
-                    android:textColor="@color/black"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="120dp"
-                    android:layout_height="130dp"
-                    android:gravity="center"
-                    android:text="Ke Moja Substance Abuse"
-                    android:textColor="@color/black"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="110sp"
-                    android:layout_height="130dp"
-                    android:gravity="center"
-                    android:text="NPOwer Support"
-                    android:textColor="@color/black"
-                    android:textStyle="bold" />
-            </TableRow>
-
-            <TableRow>
-                <TextView
-                    android:layout_width="120dp"
-                    android:layout_height="70dp"
-                    android:gravity="center"
-                    android:text="0800 55 44 33"
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:layout_width="120dp"
-                    android:layout_height="70dp"
-                    android:gravity="center"
-                    android:text="087 163 2025"
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:layout_width="110sp"
-                    android:layout_height="70dp"
-                    android:gravity="center"
-                    android:text="0800 515 515\nSMS 43010"
-                    android:textColor="@color/black" />
-            </TableRow>
-
-            <TableRow>
-                <TextView
-                    android:layout_width="120dp"
-                    android:layout_height="130dp"
-                    android:gravity="center"
-                    android:text="Pharma Dynamics Police and Trauma Helpline"
-                    android:textColor="@color/black"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="120dp"
-                    android:layout_height="130dp"
-                    android:gravity="center"
-                    android:text="Have Hope Chat Line"
-                    android:textColor="@color/black"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="110sp"
-                    android:layout_height="130dp"
-                    android:gravity="center"
-                    android:text="Cipla Mental Health Helpline"
-                    android:textColor="@color/black"
-                    android:textStyle="bold" />
-            </TableRow>
-
-            <TableRow>
-                <TextView
-                    android:layout_width="120dp"
-                    android:layout_height="70dp"
-                    android:gravity="center"
-                    android:text="0800 20 50 26"
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:layout_width="120dp"
-                    android:layout_height="70dp"
-                    android:gravity="center"
-                    android:text="087 163 2050"
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:layout_width="110sp"
-                    android:layout_height="70dp"
-                    android:gravity="center"
-                    android:text="0800 456 789\nSMS 31393"
-                    android:textColor="@color/black" />
-            </TableRow>
-            <TableRow>
-                <TextView
-                    android:layout_width="120dp"
-                    android:layout_height="130dp"
-                    android:gravity="center"
-                    android:text="8AM-8PM SADAG Office Numbers\n\nSADAG"
-                    android:textColor="@color/black"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="120dp"
-                    android:layout_height="130dp"
-                    android:gravity="center"
-                    android:text="Healthcare Workers Care Network Helpline"
-                    android:textColor="@color/black"
-                    android:textStyle="bold" />
-
-            </TableRow>
-
-            <TableRow>
-                <TextView
-                    android:layout_width="120dp"
-                    android:layout_height="70dp"
-                    android:gravity="center"
-                    android:text="011 234 4837"
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:layout_width="120dp"
-                    android:layout_height="70dp"
-                    android:gravity="center"
-                    android:text="0800 21 21 21\nSMS 43001"
-                    android:textColor="@color/black" />
-
-            </TableRow>
-        </TableLayout>
-
-    </LinearLayout>
-
-</ScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

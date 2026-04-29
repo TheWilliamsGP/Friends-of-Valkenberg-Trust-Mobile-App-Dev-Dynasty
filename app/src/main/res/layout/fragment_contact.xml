@@ -1,169 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<androidx.core.widget.NestedScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="20dp"
-    android:orientation="vertical"
-    tools:layout_editor_absoluteX="-20dp"
-    tools:layout_editor_absoluteY="114dp">
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="20dp"
-    android:orientation="vertical">
-    <TextView
+    android:background="#F8F9FA">
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Contact Us"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        tools:ignore="MissingConstraints" />
+        android:orientation="vertical"
+        android:padding="20dp">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Friends of Valkenberg Trust \nValkenberg Hospital \n1 Observatory Road\nObservatory\nCape Town"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="92dp"
-        android:padding="15sp"
-        android:textSize="15dp"
-        tools:ignore="MissingConstraints"
-        android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_us_title"
+            android:textColor="#1A1C1E"
+            android:textSize="32sp"
+            android:textStyle="bold" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:padding="15sp"
-        android:textSize="15dp"
-        android:text="\nTel: 021 447 2092 (Mornings) \nOffice Hours: 9 am – 1 pm Monday – Friday "
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="190dp"
-        tools:ignore="MissingConstraints"
-        android:textColor="@color/black"/>
+        <View
+            android:layout_width="40dp"
+            android:layout_height="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp"
+            android:background="#0061A4" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Email: admin@friendsofvalkenberg.co.za "
-        android:textStyle="bold"
-        android:padding="15sp"
-        android:textSize="15dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="251dp"
-        tools:ignore="MissingConstraints"
-        android:textColor="@color/black"/>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="0dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="#E0E0E0">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Friendly Shop 021 447 7076 \nFriendly Shop Hours: 7:30am – 3pm Monday – Friday AND 8am – 4pm Saturday \nPostal Address: \nPO BOX 13566 \nMowbray \n7705"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="290dp"
-        android:textSize="15dp"
-        tools:ignore="MissingConstraints"
-        android:textColor="@color/black"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Meet the team"
-        android:textStyle="bold"
-        android:padding="15sp"
-        android:textSize="20dp"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="417dp"
-        tools:ignore="MissingConstraints"
-        android:textColor="@color/black"/>
-    <TableLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trust_name"
+                    android:textStyle="bold"
+                    android:textColor="#1A1C1E"
+                    android:textSize="18sp" />
 
-        <TableRow
-            android:padding="5sp">
-            <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="107dp"
-                android:layout_height="102dp"
-                app:srcCompat="@drawable/soraya_1" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/trust_address"
+                    android:textColor="#44474E" />
 
-            <TextView
-                android:text="Soraya Soloman \nDirector"
-                android:textStyle="bold"
-                android:padding="8dp"
-                android:textColor="@color/black"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="#E0E0E0" />
 
-        </TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/inquiries_title"
+                    android:textStyle="bold"
+                    android:textColor="#1A1C1E" />
 
-        <TableRow
-            android:padding="5sp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/contact_details"
+                    android:textColor="#44474E" />
 
-            <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="107dp"
-                android:layout_height="102dp"
-                app:srcCompat="@drawable/gail2_4" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
 
-            <TextView
-                android:text="Gail Henry\nEvents Manager"
-                android:padding="8dp"
-                android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/meet_the_team_title"
+            android:textColor="#1A1C1E"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
-        </TableRow>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvTeam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:nestedScrollingEnabled="false" />
 
-        <TableRow
-            android:padding="5sp">
-            <ImageView
-                android:id="@+id/imageView4"
-                android:layout_width="10dp"
-                android:layout_height="102dp"
-                app:srcCompat="@drawable/ridaa2" />
-
-            <TextView
-                android:text="Ridaa Manie\nOffice Manager"
-                android:padding="8dp"
-                android:textColor="@color/black"/>
-
-        </TableRow>
-        <TableRow
-            android:padding="5sp">
-            <ImageView
-                android:id="@+id/imageView5"
-                android:layout_width="107dp"
-                android:layout_height="102dp"
-                app:srcCompat="@drawable/grisel_4" />
-
-            <TextView
-                android:text="Grisel Pretorius\nProject Manager"
-                android:padding="8dp"
-                android:textColor="@color/black"/>
-
-        </TableRow>
-        <TableRow
-            android:padding="5sp">
-            <ImageView
-                android:id="@+id/imageView6"
-                android:layout_width="107dp"
-                android:layout_height="102dp"
-                app:srcCompat="@drawable/elaine2" />
-
-            <TextView
-                android:text="Elaine Smith\nFriendly Shop Manager"
-                android:textColor="@color/black"
-                android:padding="8dp"/>
-
-        </TableRow>
-
-    </TableLayout>
-</LinearLayout>
-</ScrollView>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

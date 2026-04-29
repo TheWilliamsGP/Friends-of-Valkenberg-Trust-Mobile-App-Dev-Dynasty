@@ -1,83 +1,199 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:background="@color/background"
+    android:fillViewport="true">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="About Us"
-        android:textColor="@color/black"
-        android:textSize="22sp"
-        android:textStyle="bold"
-        tools:ignore="MissingConstraints" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="The Friends of Valkenberg Trust works alongside hospital staff at Valkenberg Psychiatric Hospital to promote the recovery of people with serious mental illnesses. This is vital, as it means people can get back to their lives, their families, their jobs and their communities. We also recognize and appreciate the team of staff who make recovery possible and serve to remind the larger community, and the service users themselves, that recovery is possible. Valkenberg Psychiatric Hospital serves adults from a diverse area of more than a million people in the Western Cape – from Simon’s Town to Nyanga, Grassy Park to Atlantis. Most come from disadvantaged communities. Many have little family or community support and will be in hospital for a number of weeks."
-        android:textColor="@color/black"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="60dp"
-        tools:ignore="MissingConstraints" />
+        android:orientation="vertical"
+        android:padding="18dp">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="WHY CHOOSE US"
-        android:textColor="@color/black"
-        android:textSize="22sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="292dp"
-        tools:ignore="MissingConstraints" />
+        <!-- HEADER CARD -->
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Through its 60 volunteers, the Friends of Valkenberg works in conjunction with hospital staff to provide a range of services designed to bring hope and comfort to patients during their stay at Valkenberg Psychiatric Hospital; meeting direct needs and helping patients along the road to recovery."
-        android:textColor="@color/black"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="323dp"
-        tools:ignore="MissingConstraints" />
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    android:padding="20sp"
-    >
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="150sp"
-        android:layout_height="135dp"
-        app:srcCompat="@drawable/fran"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="430dp"
-        tools:ignore="MissingConstraints" />
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            app:cardBackgroundColor="@color/primary"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="6dp">
 
-    <TextView
-        android:layout_width="221dp"
-        android:layout_height="wrap_content"
-        android:text="Psychiatric patients have been neglected by society at large, and if we only make a difference to one patient on one day, then we’re doing something worthwhile and making an important difference."
-        android:textColor="@color/black"
-        android:layout_marginTop="10sp"
-        android:paddingLeft="20sp"
-        tools:layout_editor_absoluteX="174dp"
-        tools:layout_editor_absoluteY="445dp"
-        tools:ignore="MissingConstraints" />
-</LinearLayout>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="-Fran Robertson, Founder"
-        android:textColor="@color/black"
-        android:gravity="right"
-        tools:layout_editor_absoluteX="238dp"
-        tools:layout_editor_absoluteY="546dp"
-        tools:ignore="MissingConstraints" />
-</LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="24dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="About Us"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="3dp"
+                    android:text="Dedicated to mental health recovery, compassionate care, and restoring hope within communities."
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- WHO WE ARE CARD -->
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Who We Are"
+                    android:textColor="@color/primary"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:lineSpacingExtra="5dp"
+                    android:text="The Friends of Valkenberg Trust works alongside hospital staff at Valkenberg Psychiatric Hospital to support the recovery of people living with serious mental illnesses. Our work helps individuals reconnect with their families, careers, and communities while reminding both patients and society that recovery is possible."
+                    android:textColor="@color/text_secondary"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:lineSpacingExtra="5dp"
+                    android:text="Valkenberg Psychiatric Hospital serves adults from diverse communities across the Western Cape, including areas from Simon’s Town to Atlantis. Many patients come from disadvantaged backgrounds and often lack strong support systems during recovery."
+                    android:textColor="@color/text_secondary"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- WHY CHOOSE US CARD -->
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            app:cardBackgroundColor="@color/secondary"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Why Choose Us"
+                    android:textColor="@color/text_primary"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:lineSpacingExtra="5dp"
+                    android:text="Through more than 60 dedicated volunteers, the Friends of Valkenberg works together with hospital staff to provide support services that bring hope, comfort, dignity, and encouragement to patients during their recovery journey."
+                    android:textColor="@color/text_secondary"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- FOUNDER QUOTE CARD -->
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="22dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="18dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:contentDescription="Fran Robertson"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/fran" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:lineSpacingExtra="4dp"
+                            android:text="“Psychiatric patients have been neglected by society at large, and if we only make a difference to one patient on one day, then we’re doing something worthwhile and making an important difference.”"
+                            android:textColor="@color/text_primary"
+                            android:textSize="16sp"
+                            android:textStyle="italic" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="14dp"
+                            android:text="- Fran Robertson, Founder"
+                            android:textColor="@color/accent"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+</ScrollView>

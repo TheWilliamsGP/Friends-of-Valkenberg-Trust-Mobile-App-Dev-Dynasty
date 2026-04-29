@@ -2,4 +2,11 @@
     <string name="app_name">Friends of Valkenberg Trust app</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
+
+    <string name="contact_us_title">Contact Us</string>
+    <string name="trust_name">Friends of Valkenberg Trust</string>
+    <string name="trust_address">Valkenberg Hospital\n1 Observatory Road, Observatory\nCape Town</string>
+    <string name="inquiries_title">General Inquiries</string>
+    <string name="contact_details">Tel: 021 447 2092 (Mornings)\nHours: 9am – 1pm (Mon-Fri)\nEmail: admin@friendsofvalkenberg.co.za</string>
+    <string name="meet_the_team_title">Meet the Team</string>
 </resources>
