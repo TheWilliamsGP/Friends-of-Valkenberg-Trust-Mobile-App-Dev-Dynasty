@@ -32,7 +32,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Our Services"
+                    android:text="@string/our_services"
                     android:textColor="@color/white"
                     android:textSize="30sp"
                     android:textStyle="bold" />
@@ -42,7 +42,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:lineSpacingExtra="4dp"
-                    android:text="Supporting recovery, dignity, independence, and hope through compassionate community-driven initiatives."
+                    android:text="@string/our_services_text_page"
                     android:textColor="@color/white"
                     android:textSize="16sp" />
 
@@ -69,7 +69,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="What We Do"
+                    android:text="@string/what_we_do"
                     android:textColor="@color/primary"
                     android:textSize="22sp"
                     android:textStyle="bold" />
@@ -79,7 +79,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="14dp"
                     android:lineSpacingExtra="5dp"
-                    android:text="The Friends of Valkenberg serves both patients and staff at Valkenberg Psychiatric Hospital with the help of more than 60 dedicated volunteers. Together with hospital staff, we provide services that bring comfort, support, and encouragement to patients during recovery, helping them reconnect with their families, careers, and communities."
+                    android:text="@string/what_we_do_text"
                     android:textColor="@color/text_secondary"
                     android:textSize="16sp" />
 
@@ -106,7 +106,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="1. Meeting Basic Patient Needs"
+                    android:text="@string/meeting_basic_patient_needs"
                     android:textColor="@color/text_primary"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -116,7 +116,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
                     android:lineSpacingExtra="4dp"
-                    android:text="Providing essentials such as clean clothing, groceries, and transport support plays an important role in helping patients transition back into daily life after hospitalization."
+                    android:text="@string/meeting_basic_patient_needs_text"
                     android:textColor="@color/text_secondary"
                     android:textSize="16sp" />
 
@@ -143,7 +143,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2. Supporting Patient Recovery"
+                    android:text="@string/supporting_patient_recovery"
                     android:textColor="@color/primary"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -153,7 +153,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
                     android:lineSpacingExtra="4dp"
-                    android:text="Recovery involves more than medication. Through volunteer-led projects, patients rebuild confidence, self-esteem, life skills, and independence needed to successfully return to their communities."
+                    android:text="@string/supporting_patient_recovery_text"
                     android:textColor="@color/text_secondary"
                     android:textSize="16sp" />
 
@@ -180,7 +180,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="3. Recreation And Community Connection"
+                    android:text="@string/recreation_and_community_connection"
                     android:textColor="@color/text_primary"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -190,7 +190,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
                     android:lineSpacingExtra="4dp"
-                    android:text="Celebrations and recreational activities help patients maintain cultural connections, reduce feelings of isolation, and create meaningful experiences during hospitalization."
+                    android:text="@string/recreation_and_community_connection_text"
                     android:textColor="@color/text_secondary"
                     android:textSize="16sp" />
 
@@ -217,7 +217,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4. Supporting Hospital Staff"
+                    android:text="@string/supporting_hospital_staff"
                     android:textColor="@color/primary"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -227,7 +227,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
                     android:lineSpacingExtra="4dp"
-                    android:text="The dedicated staff at Valkenberg Psychiatric Hospital work under demanding conditions. We support staff initiatives, morale, and wellbeing through recognition and community support."
+                    android:text="@string/supporting_hospital_staff_text"
                     android:textColor="@color/text_secondary"
                     android:textSize="16sp" />
 
@@ -254,7 +254,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="5. Raising Mental Health Awareness"
+                    android:text="@string/raising_mental_health_awareness"
                     android:textColor="@color/text_primary"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -264,7 +264,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
                     android:lineSpacingExtra="4dp"
-                    android:text="Despite progress in mental health treatment, stigma continues to affect many individuals. We actively work toward building awareness, understanding, compassion, and acceptance within communities."
+                    android:text="@string/raising_mental_health_awareness_text"
                     android:textColor="@color/text_secondary"
                     android:textSize="16sp" />
 

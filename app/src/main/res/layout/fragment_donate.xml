@@ -32,7 +32,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Donate"
+                    android:text="@string/donate"
                     android:textColor="@color/white"
                     android:textSize="30sp"
                     android:textStyle="bold" />
@@ -42,7 +42,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:lineSpacingExtra="4dp"
-                    android:text="Your support helps bring hope, recovery, dignity, and care to people living with mental illnesses."
+                    android:text="@string/donate_text"
                     android:textColor="@color/white"
                     android:textSize="16sp" />
 
@@ -69,7 +69,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Thank You"
+                    android:text="@string/thank_you"
                     android:textColor="@color/primary"
                     android:textSize="22sp"
                     android:textStyle="bold" />
@@ -79,7 +79,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
                     android:lineSpacingExtra="5dp"
-                    android:text="Thank you for your interest in supporting the Friends of Valkenberg Trust. Every donation contributes toward improving recovery journeys and supporting mental wellness within our communities."
+                    android:text="@string/thank_you_text"
                     android:textColor="@color/text_secondary"
                     android:textSize="16sp" />
 
@@ -93,7 +93,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="14dp"
-            android:text="Payment Methods"
+            android:text="@string/payment_methods"
             android:textColor="@color/text_primary"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -118,7 +118,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:lineSpacingExtra="4dp"
-                    android:text="For your convenience, we offer multiple payment options. If you require a Section 18A receipt, please email your request to:"
+                    android:text="@string/payment_methods_text"
                     android:textColor="@color/text_secondary"
                     android:textSize="15sp" />
 
@@ -127,7 +127,7 @@
                     android:layout_height="wrap_content"
                     android:autoLink="email"
                     android:layout_marginTop="10dp"
-                    android:text="admin@friendsofvalkenberg.co.za"
+                    android:text="@string/email"
                     android:textColor="@color/accent"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -155,7 +155,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="EFT Banking Details"
+                    android:text="@string/eft_banking_details"
                     android:textColor="@color/primary"
                     android:textSize="22sp"
                     android:textStyle="bold" />
@@ -170,7 +170,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Bank"
+                    android:text="@string/bank"
                     android:textColor="@color/text_primary"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -179,7 +179,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
-                    android:text="Standard Bank"
+                    android:text="@string/standard_bank"
                     android:textColor="@color/text_secondary"
                     android:textSize="18sp" />
 
@@ -187,7 +187,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="14dp"
-                    android:text="Account Number"
+                    android:text="@string/account_number"
                     android:textColor="@color/text_primary"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -195,7 +195,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="071270728"
+                    android:text="@string/accountnumber"
                     android:textColor="@color/accent"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -204,7 +204,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="14dp"
-                    android:text="Branch Code"
+                    android:text="@string/branch_code"
                     android:textColor="@color/text_primary"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -212,7 +212,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="051001"
+                    android:text="@string/branch_code_"
                     android:textColor="@color/text_secondary"
                     android:textSize="18sp" />
 
@@ -220,7 +220,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="14dp"
-                    android:text="Payment Reference"
+                    android:text="@string/payment_reference"
                     android:textColor="@color/text_primary"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -228,7 +228,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Your Name and Surname"
+                    android:text="@string/payment_ref"
                     android:textColor="@color/text_secondary"
                     android:textSize="18sp" />
 
@@ -255,7 +255,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="SnapScan"
+                    android:text="@string/snapscan"
                     android:textColor="@color/text_primary"
                     android:textSize="22sp"
                     android:textStyle="bold" />
@@ -264,7 +264,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="6dp"
-                    android:text="Secure card payments"
+                    android:text="@string/secure_card_payments"
                     android:textColor="@color/text_secondary"
                     android:textSize="15sp" />
 
@@ -273,7 +273,7 @@
                     android:layout_height="wrap_content"
                     android:autoLink="web"
                     android:layout_marginTop="16dp"
-                    android:text="https://pos.snapscan.io/qr/n5zbKcH7"
+                    android:text="@string/snap_scan_link"
                     android:textColor="@color/primary"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -301,7 +301,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Tax Benefits"
+                    android:text="@string/tax_benefits"
                     android:textColor="@color/primary"
                     android:textSize="22sp"
                     android:textStyle="bold" />
@@ -311,7 +311,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="14dp"
                     android:lineSpacingExtra="5dp"
-                    android:text="All donations made to the Friends of Valkenberg Trust are exempt from donations tax and may qualify for deductions from taxable income in accordance with the Income Tax Act 58 of 1962. Donor deductibility applies to cash donations, bequests, and donations in kind."
+                    android:text="@string/tax_benifits_text"
                     android:textColor="@color/text_secondary"
                     android:textSize="16sp" />
 

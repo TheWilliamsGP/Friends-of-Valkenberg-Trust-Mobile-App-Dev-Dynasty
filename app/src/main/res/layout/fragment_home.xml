@@ -32,7 +32,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Friends of Valkenberg Trust"
+                    android:text="@string/friends_of_valkenberg_trust"
                     android:textColor="@color/white"
                     android:textSize="30sp"
                     android:textStyle="bold" />
@@ -41,7 +41,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="Supporting mental wellness, recovery, and hope within our communities."
+                    android:text="@string/supporting_mental_wellness_recovery_and_hope_within_our_communities"
                     android:textColor="@color/white"
                     android:textSize="16sp" />
 
@@ -68,7 +68,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Welcome"
+                    android:text="@string/welcome"
                     android:textColor="@color/primary"
                     android:textSize="22sp"
                     android:textStyle="bold" />
@@ -78,7 +78,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
                     android:lineSpacingExtra="4dp"
-                    android:text="Welcome to our mobile app. We are dedicated to supporting mental health recovery and improving the lives of patients and families through compassion, community care, and meaningful support initiatives."
+                    android:text="@string/welcome_text"
                     android:textColor="@color/text_secondary"
                     android:textSize="16sp" />
 
@@ -105,7 +105,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Our Mission"
+                    android:text="@string/our_mission"
                     android:textColor="@color/text_primary"
                     android:textSize="22sp"
                     android:textStyle="bold" />
@@ -115,7 +115,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
                     android:lineSpacingExtra="4dp"
-                    android:text="The Friends of Valkenberg Trust works alongside staff at Valkenberg Hospital to promote mental wellness and support the recovery of individuals living with serious mental illnesses. Through compassionate care and meaningful support systems, we help patients reintegrate into society, reconnect with their loved ones, and rebuild their lives."
+                    android:text="@string/our_mission_text"
                     android:textColor="@color/text_secondary"
                     android:textSize="16sp" />
 
@@ -142,7 +142,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Our Services"
+                    android:text="@string/our_services"
                     android:textColor="@color/primary"
                     android:textSize="22sp"
                     android:textStyle="bold" />
@@ -152,7 +152,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
                     android:lineSpacingExtra="4dp"
-                    android:text="The Friends of Valkenberg serves both patients and staff of Valkenberg Psychiatric Hospital. Working together with more than 60 volunteers, we provide services that bring comfort, encouragement, and hope to individuals during their recovery journey. Our support helps patients return to their families, workplaces, and communities with renewed confidence and stability."
+                    android:text="@string/our_services_text"
                     android:textColor="@color/text_secondary"
                     android:textSize="16sp" />
 
@@ -166,7 +166,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="14dp"
-            android:text="Follow Us"
+            android:text="@string/follow_us"
             android:textColor="@color/text_primary"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -199,7 +199,7 @@
                         android:layout_width="58dp"
                         android:layout_height="58dp"
                         android:background="@drawable/circle_background"
-                        android:contentDescription="Facebook"
+                        android:contentDescription="@string/facebook"
                         android:padding="10dp"
                         android:src="@drawable/facebook_logo" />
 
@@ -207,7 +207,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="6dp"
-                        android:text="Facebook"
+                        android:text="@string/facebook"
                         android:textColor="@color/white"
                         android:textSize="13sp" />
 
@@ -225,7 +225,7 @@
                         android:layout_width="58dp"
                         android:layout_height="58dp"
                         android:background="@drawable/circle_background"
-                        android:contentDescription="Instagram"
+                        android:contentDescription="@string/instagram"
                         android:padding="10dp"
                         android:src="@drawable/insta_logo" />
 
@@ -233,7 +233,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="6dp"
-                        android:text="Instagram"
+                        android:text="@string/instagram"
                         android:textColor="@color/white"
                         android:textSize="13sp" />
 
@@ -251,7 +251,7 @@
                         android:layout_width="58dp"
                         android:layout_height="58dp"
                         android:background="@drawable/circle_background"
-                        android:contentDescription="YouTube"
+                        android:contentDescription="@string/youtube"
                         android:padding="10dp"
                         android:src="@drawable/youtube_logo" />
 
@@ -259,7 +259,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="6dp"
-                        android:text="YouTube"
+                        android:text="@string/youtube"
                         android:textColor="@color/white"
                         android:textSize="13sp" />
 

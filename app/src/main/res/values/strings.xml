@@ -9,4 +9,70 @@
     <string name="inquiries_title">General Inquiries</string>
     <string name="contact_details">Tel: 021 447 2092 (Mornings)\nHours: 9am – 1pm (Mon-Fri)\nEmail: admin@friendsofvalkenberg.co.za</string>
     <string name="meet_the_team_title">Meet the Team</string>
+    <string name="friends_of_valkenberg_trust">Friends of Valkenberg Trust</string>
+    <string name="supporting_mental_wellness_recovery_and_hope_within_our_communities">Supporting mental wellness, recovery, and hope within our communities.</string>
+
+    <!-- Home Page -->
+    <string name="welcome">Welcome</string>
+    <string name="welcome_text">Welcome to our mobile app. We are dedicated to supporting mental health recovery and improving the lives of patients and families through compassion, community care, and meaningful support initiatives.</string>
+    <string name="our_mission">Our Mission</string>
+    <string name="our_mission_text">The Friends of Valkenberg Trust works alongside staff at Valkenberg Hospital to promote mental wellness and support the recovery of individuals living with serious mental illnesses. Through compassionate care and meaningful support systems, we help patients reintegrate into society, reconnect with their loved ones, and rebuild their lives.</string>
+    <string name="our_services">Our Services</string>
+    <string name="our_services_text">The Friends of Valkenberg serves both patients and staff of Valkenberg Psychiatric Hospital. Working together with more than 60 volunteers, we provide services that bring comfort, encouragement, and hope to individuals during their recovery journey. Our support helps patients return to their families, workplaces, and communities with renewed confidence and stability.</string>
+    <string name="follow_us">Follow Us</string>
+    <string name="facebook">Facebook</string>
+    <string name="instagram">Instagram</string>
+    <string name="youtube">YouTube</string>
+
+    <!-- About us Page -->
+    <string name="about_us">About Us</string>
+    <string name="about_us_text">Dedicated to mental health recovery, compassionate care, and restoring hope within communities.</string>
+    <string name="who_we_are">Who We Are</string>
+    <string name="who_we_are_text">The Friends of Valkenberg Trust works alongside hospital staff at Valkenberg Psychiatric Hospital to support the recovery of people living with serious mental illnesses. Our work helps individuals reconnect with their families, careers, and communities while reminding both patients and society that recovery is possible.</string>
+    <string name="who_we_are_text_cont">Valkenberg Psychiatric Hospital serves adults from diverse communities across the Western Cape, including areas from Simon’s Town to Atlantis. Many patients come from disadvantaged backgrounds and often lack strong support systems during recovery.</string>
+    <string name="why_choose_us">Why Choose Us</string>
+    <string name="why_choose_us_text">Through more than 60 dedicated volunteers, the Friends of Valkenberg works together with hospital staff to provide support services that bring hope, comfort, dignity, and encouragement to patients during their recovery journey.</string>
+    <string name="fran_robertson">Fran Robertson</string>
+    <string name="fran_qoute">“Psychiatric patients have been neglected by society at large, and if we only make a difference to one patient on one day, then we’re doing something worthwhile and making an important difference.”</string>
+    <string name="fran_robertson_founder">- Fran Robertson, Founder</string>
+
+    <!-- Donation Page -->
+    <string name="donate">Donate</string>
+    <string name="donate_text">Your support helps bring hope, recovery, dignity, and care to people living with mental illnesses.</string>
+    <string name="thank_you">Thank You</string>
+    <string name="thank_you_text">Thank you for your interest in supporting the Friends of Valkenberg Trust. Every donation contributes toward improving recovery journeys and supporting mental wellness within our communities.</string>
+    <string name="payment_methods">Payment Methods</string>
+    <string name="payment_methods_text">For your convenience, we offer multiple payment options. If you require a Section 18A receipt, please email your request to:</string>
+    <string name="email">admin@friendsofvalkenberg.co.za</string>
+    <string name="eft_banking_details">EFT Banking Details</string>
+    <string name="bank">Bank</string>
+    <string name="standard_bank">Standard Bank</string>
+    <string name="account_number">Account Number</string>
+    <string name="accountnumber">071270728</string>
+    <string name="branch_code">Branch Code</string>
+    <string name="branch_code_">051001</string>
+    <string name="payment_reference">Payment Reference</string>
+    <string name="payment_ref">Your Name and Surname</string>
+    <string name="snapscan">SnapScan</string>
+    <string name="secure_card_payments">Secure card payments</string>
+    <string name="snap_scan_link">https://pos.snapscan.io/qr/n5zbKcH7</string>
+    <string name="tax_benefits">Tax Benefits</string>
+    <string name="tax_benifits_text">All donations made to the Friends of Valkenberg Trust are exempt from donations tax and may qualify for deductions from taxable income in accordance with the Income Tax Act 58 of 1962. Donor deductibility applies to cash donations, bequests, and donations in kind.</string>
+
+    <!-- Our Services Page -->
+    <string name="our_services_text_page">Supporting recovery, dignity, independence, and hope through compassionate community-driven initiatives.</string>
+    <string name="what_we_do">What We Do</string>
+    <string name="what_we_do_text">The Friends of Valkenberg serves both patients and staff at Valkenberg Psychiatric Hospital with the help of more than 60 dedicated volunteers. Together with hospital staff, we provide services that bring comfort, support, and encouragement to patients during recovery, helping them reconnect with their families, careers, and communities.</string>
+    <string name="meeting_basic_patient_needs">1. Meeting Basic Patient Needs</string>
+    <string name="meeting_basic_patient_needs_text">Providing essentials such as clean clothing, groceries, and transport support plays an important role in helping patients transition back into daily life after hospitalization.</string>
+    <string name="supporting_patient_recovery">2. Supporting Patient Recovery</string>
+    <string name="supporting_patient_recovery_text">Recovery involves more than medication. Through volunteer-led projects, patients rebuild confidence, self-esteem, life skills, and independence needed to successfully return to their communities.</string>
+    <string name="recreation_and_community_connection">3. Recreation And Community Connection</string>
+    <string name="recreation_and_community_connection_text">Celebrations and recreational activities help patients maintain cultural connections, reduce feelings of isolation, and create meaningful experiences during hospitalization.</string>
+    <string name="supporting_hospital_staff">4. Supporting Hospital Staff</string>
+    <string name="supporting_hospital_staff_text">The dedicated staff at Valkenberg Psychiatric Hospital work under demanding conditions. We support staff initiatives, morale, and wellbeing through recognition and community support.</string>
+    <string name="raising_mental_health_awareness">5. Raising Mental Health Awareness</string>
+    <string name="raising_mental_health_awareness_text">Despite progress in mental health treatment, stigma continues to affect many individuals. We actively work toward building awareness, understanding, compassion, and acceptance within communities.</string>
+
+
 </resources>

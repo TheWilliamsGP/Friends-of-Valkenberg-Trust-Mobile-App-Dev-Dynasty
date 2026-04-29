@@ -32,7 +32,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="About Us"
+                    android:text="@string/about_us"
                     android:textColor="@color/white"
                     android:textSize="30sp"
                     android:textStyle="bold" />
@@ -42,7 +42,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:lineSpacingExtra="3dp"
-                    android:text="Dedicated to mental health recovery, compassionate care, and restoring hope within communities."
+                    android:text="@string/about_us_text"
                     android:textColor="@color/white"
                     android:textSize="16sp" />
 
@@ -69,7 +69,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Who We Are"
+                    android:text="@string/who_we_are"
                     android:textColor="@color/primary"
                     android:textSize="22sp"
                     android:textStyle="bold" />
@@ -79,7 +79,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="14dp"
                     android:lineSpacingExtra="5dp"
-                    android:text="The Friends of Valkenberg Trust works alongside hospital staff at Valkenberg Psychiatric Hospital to support the recovery of people living with serious mental illnesses. Our work helps individuals reconnect with their families, careers, and communities while reminding both patients and society that recovery is possible."
+                    android:text="@string/who_we_are_text"
                     android:textColor="@color/text_secondary"
                     android:textSize="16sp" />
 
@@ -88,7 +88,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="14dp"
                     android:lineSpacingExtra="5dp"
-                    android:text="Valkenberg Psychiatric Hospital serves adults from diverse communities across the Western Cape, including areas from Simon’s Town to Atlantis. Many patients come from disadvantaged backgrounds and often lack strong support systems during recovery."
+                    android:text="@string/who_we_are_text_cont"
                     android:textColor="@color/text_secondary"
                     android:textSize="16sp" />
 
@@ -115,7 +115,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Why Choose Us"
+                    android:text="@string/why_choose_us"
                     android:textColor="@color/text_primary"
                     android:textSize="22sp"
                     android:textStyle="bold" />
@@ -125,7 +125,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="14dp"
                     android:lineSpacingExtra="5dp"
-                    android:text="Through more than 60 dedicated volunteers, the Friends of Valkenberg works together with hospital staff to provide support services that bring hope, comfort, dignity, and encouragement to patients during their recovery journey."
+                    android:text="@string/why_choose_us_text"
                     android:textColor="@color/text_secondary"
                     android:textSize="16sp" />
 
@@ -157,7 +157,7 @@
                         android:id="@+id/imageView"
                         android:layout_width="120dp"
                         android:layout_height="120dp"
-                        android:contentDescription="Fran Robertson"
+                        android:contentDescription="@string/fran_robertson"
                         android:scaleType="centerCrop"
                         android:src="@drawable/fran" />
 
@@ -172,7 +172,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:lineSpacingExtra="4dp"
-                            android:text="“Psychiatric patients have been neglected by society at large, and if we only make a difference to one patient on one day, then we’re doing something worthwhile and making an important difference.”"
+                            android:text="@string/fran_qoute"
                             android:textColor="@color/text_primary"
                             android:textSize="16sp"
                             android:textStyle="italic" />
@@ -181,7 +181,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="14dp"
-                            android:text="- Fran Robertson, Founder"
+                            android:text="@string/fran_robertson_founder"
                             android:textColor="@color/accent"
                             android:textSize="14sp"
                             android:textStyle="bold" />
