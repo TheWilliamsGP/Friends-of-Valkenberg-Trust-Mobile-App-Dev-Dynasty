@@ -15,8 +15,15 @@
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="131dp"
+        android:layout_height="214dp"
         android:layout_marginTop="10dp"
-        android:text="We actively share updates from The Friends of Valkenberg Trust on our social media channels. Whether it’s upcoming events, volunteer opportunities, success stories, or behind-the-scenes glimpses of our ongoing projects, our platforms are the best way to stay connected with what’s happening in our community. By following us, you’ll not only stay informed about the latest developments but also gain a deeper understanding of the work we do and the impact your support makes. Join our growing online community and be part of the journey—every like, share, and comment helps spread awareness and strengthen the circle of care around mental health." />
+        android:text="We actively share updates from The Friends of Valkenberg Trust on our social media channels. Whether it’s upcoming events, volunteer opportunities, success stories, or behind-the-scenes glimpses of our ongoing projects, our platforms are the best way to stay connected with what’s happening in our community. By following us, you’ll not only stay informed about the latest developments but also gain a deeper understanding of the work we do and the impact your support makes. Join our growing online community and be part of the journey, every like, share, and comment helps spread awareness and strengthen the circle of care around mental health." />
+
+    <ImageView
+        android:id="@+id/eventImage"
+        android:layout_width="match_parent"
+        android:layout_height="357dp"
+        android:layout_marginTop="20sp"
+        android:scaleType="centerCrop" />
 
 </LinearLayout>

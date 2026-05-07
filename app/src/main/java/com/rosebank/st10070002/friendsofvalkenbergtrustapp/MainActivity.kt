@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.nav_donate -> loadFragment(DonateFragment())
                 R.id.nav_Volunteer -> loadFragment(VolunteerFragment())
                 R.id.nav_resources -> loadFragment(ResourcesFragment())
-                R.id.nav_community -> loadFragment(CommunityFragment())
+                R.id.nav_events -> loadFragment(EventsFragment())
                 R.id.nav_contact -> loadFragment(ContactFragment())
             }
 
