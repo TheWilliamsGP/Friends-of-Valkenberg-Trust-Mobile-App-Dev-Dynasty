@@ -1,50 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="20dp">
+    android:layout_height="match_parent">
 
-    <!-- HEADER -->
-    <include layout="@layout/vol_header" />
-
-    <!-- DESCRIPTION (optional if already inside header, remove if duplicated) -->
-    <TextView
-        android:id="@+id/vol_txt_description"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Join our volunteer team and help support mental health recovery in the community."
-        android:textSize="14sp"
-        android:textColor="@color/text_secondary" />
-
-    <!-- CALL TO ACTION -->
-    <include layout="@layout/vol_cta" />
-
-    <!-- SECTION TITLE -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Active Volunteers"
-        android:textStyle="bold"
-        android:textSize="18sp"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="10dp"
-        android:textColor="@color/primary" />
-
-    <!-- VOLUNTEER LIST (STATIC FOR NOW) -->
     <LinearLayout
-        android:id="@+id/vol_list_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="20dp">
 
-        <include layout="@layout/vol_card" />
+        <!-- HEADER -->
+        <include layout="@layout/vol_header" />
 
-        <include layout="@layout/vol_card" />
+        <!-- DESCRIPTION -->
+        <TextView
+            android:id="@+id/vol_txt_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Join our volunteer team and help support mental health recovery in the community."
+            android:textSize="14sp"
+            android:textColor="@color/text_secondary" />
 
-        <include layout="@layout/vol_card" />
+        <!-- BUTTON: SHOW FORM -->
+        <Button
+            android:id="@+id/btn_become_volunteer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Become Volunteer"
+            android:layout_marginTop="12dp" />
+
+        <!-- FORM (HIDDEN INITIALLY) -->
+        <LinearLayout
+            android:id="@+id/vol_form_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/input_fname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="First Name" />
+
+            <EditText
+                android:id="@+id/input_sname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Surname" />
+
+            <EditText
+                android:id="@+id/input_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email" />
+
+            <EditText
+                android:id="@+id/input_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone Number" />
+
+            <Button
+                android:id="@+id/btn_add_volunteer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register Volunteer"
+                android:layout_marginTop="10dp" />
+        </LinearLayout>
+
+        <!-- TITLE -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Active Volunteers"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/primary" />
+
+        <!-- LIST -->
+        <LinearLayout
+            android:id="@+id/vol_list_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
 
     </LinearLayout>
 
-</LinearLayout>
+</ScrollView>

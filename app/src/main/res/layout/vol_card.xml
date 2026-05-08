@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -6,6 +7,7 @@
     android:background="@color/secondary"
     android:layout_marginBottom="10dp">
 
+    <!-- PROFILE ICON -->
     <ImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -13,25 +15,30 @@
         android:background="@drawable/circle_background"
         android:padding="6dp"/>
 
+    <!-- TEXT INFO -->
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginStart="10dp">
 
+        <!-- VOLUNTEER NAME (FROM SUPABASE) -->
         <TextView
             android:id="@+id/volunteer_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Sarah Johnson"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textSize="14sp"/>
 
+        <!-- STATIC ROLE TEXT -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Community Support Volunteer"
             android:textSize="12sp"
             android:textColor="@color/text_secondary"/>
+
     </LinearLayout>
 
 </LinearLayout>
